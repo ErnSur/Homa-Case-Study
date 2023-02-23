@@ -46,3 +46,4 @@ Look at menu item: _Tools/Character Wizard_
   looking for potentially forgotten assets". But it can be easily created using AssetDatabase and checking dependencies of scenes added to the build scene list. I created something like that in the past.
 - Code might look rough around the edges, I did not find the time to clean it up.
 - I did not finish the feature of creating new materials from provided texture
+- Code style might be all over the place as I did not configure the IDE on the system I was working on.
