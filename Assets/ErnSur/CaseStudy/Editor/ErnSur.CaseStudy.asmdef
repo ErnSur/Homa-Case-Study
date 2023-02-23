@@ -1,0 +1,19 @@
+{
+    "name": "ErnSur.CaseStudy",
+    "rootNamespace": "",
+    "references": [
+        "GUID:2c4c21464936a3e49834ae1f89c667bf",
+        "GUID:478a2357cc57436488a56e564b08d223"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

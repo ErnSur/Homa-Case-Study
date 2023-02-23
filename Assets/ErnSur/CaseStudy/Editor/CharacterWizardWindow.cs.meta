@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: eb9c188f41e9ba24e8caed02dd2a65c6
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_ViewDataDictionary: {instanceID: 0}
+  - characterCreationPreset: {fileID: 11400000, guid: 2804efbdb86348f4fade42ddf443ce6d,
+      type: 2}
+  - storeLibrary: {fileID: 11400000, guid: 1e8ae57c6eeca8847b8080f4c3429600, type: 2}
+  - prefab: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,23 +1,26 @@
 ﻿using HomaGames.Internal.Utilities;
 using System;
-using System.Collections;
 using System.Collections.Generic;
+using ErnSur.CaseStudy;
 using UnityEngine;
 
 [System.Serializable]
 public class StoreItem
 {
-    public int Id;
     public string Name;
+    public int Id;
     public int Price;
-    public Sprite Icon;
-    public GameObject Prefab;
+    public StoreItemViewModel Prefab;
+    public bool Valid => Prefab != null && Price >= 0;
 }
 
 public class Store : Singleton<Store>
 {
-    public List<StoreItem> StoreItems;
+    [SerializeField]
+    private StoreLibrary storeLibrary;
+
     public Action<StoreItem> OnItemSelected;
+    public List<StoreItem> StoreItems => storeLibrary.items;
 
     public void SelectItem(StoreItem item)
     {

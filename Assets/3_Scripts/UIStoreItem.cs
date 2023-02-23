@@ -18,7 +18,7 @@ public class UIStoreItem : MonoBehaviour
     {
         nameText.text = item.Name;
         priceText.text = item.Price.ToString();
-        itemImage.sprite = item.Icon;
+        itemImage.sprite = item.Prefab.icon;
         button.onClick.RemoveAllListeners();
         button.onClick.AddListener(() => Store.Instance.SelectItem(item));
     }

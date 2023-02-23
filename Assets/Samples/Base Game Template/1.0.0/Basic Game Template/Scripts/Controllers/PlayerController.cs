@@ -43,7 +43,7 @@ public class PlayerController : MonoBehaviour
         if (animator != null) {
             Destroy(animator.gameObject);
         }
-        GameObject characterInstance = Instantiate(characterItem.Prefab, transform);
+        GameObject characterInstance = Instantiate(characterItem.Prefab, transform).gameObject;
         animator = characterInstance.GetComponent<Animator>();
     }
 
